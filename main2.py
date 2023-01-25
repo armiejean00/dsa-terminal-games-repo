@@ -41,7 +41,15 @@ def print_menu():
         clear()
         from menu import print_menu1
     elif option == "2":
-      print("This is about games that implement queue, stack and linked-list.")
+     
+      print("PROJECT DESCRIPTION")
+      print("This project consists of three basic games that use data structures.")
+      print("i. Stack - 4 in a row ")
+      print("ii. Queue - Word Guessing")
+      print("iii. Linked List - Snake")
+
+      print("ABOUT THE AUTHORS")
+      print("The project was created by Armie Miranda & Rieza Espejo.")
 
       
       time.sleep(5.0)
